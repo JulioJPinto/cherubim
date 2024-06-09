@@ -47,7 +47,67 @@ Knowing this, we get the following derivation tree.
 
 A context independent grammar can be defined as regular to the right or to the left. This is defined by the way the productions are defined.
 
+### To the Right
+
+The productions are defined this way.
+```
+A -> y
+A -> y B
+``` 
+Where y is a T. Being said this, all productions have on their right side, at max, one non-terminal symbol.
+
+
+### To the Left
+
+The productions are defined this way.
+```
+A -> y
+A -> B y
+``` 
+Where y is a T. Being said this, all productions have on their left side, at max, one non-terminal symbol. This one being the first symbol on the right side.
+
 ## Regex to Grammars
+
+For each non-terminal symbol A where the productions are defined this way.
+
+```
+A -> a1 | a2 | ... | an
+```
+We can right the following equation
+```
+A = o1 + o2 + ... + on
+```
+Where oi corresponds to the ai.
+
+Taking into account this simple grammar:
+
+```
+S → Sinal RealSemSinal
+Sinal → ε| + |−
+RealSemSinal → Inteiro ParteDecimal
+Inteiro → digito | digito Inteiro
+ParteDecimal → ε| ’.’ Inteiro
+```
+We can define the following equations:
+```
+S = Sinal RealSemSinal
+Sinal = ε + ’+’ + ’-’
+RealSemSinal = Inteiro ParteDecimal
+Inteiro = digito + digito Inteiro
+ParteDecimal = ε + ’.’ Inteiro
+```
+
+The solution being `S = (ε + '+' + '-')(digito)+ (ε + '.' (digito)+)`
+
+## Simple Regular Grammars (GSR)
+
+### To the Right
+
+### To the Left
+
+### GR to GSR
+
+## Automata
 
 
 
