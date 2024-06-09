@@ -1,5 +1,5 @@
 ---
-title: 🛠️ Júlio's Workspace
+title: Júlio's Workspace
 ---
 
 # 🛠️ Júlio's Workspace
