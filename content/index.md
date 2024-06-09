@@ -2,6 +2,8 @@
 title: 🛠️ Júlio's Workspace
 ---
 
+# 🛠️ Júlio's Workspace
+
 This is a website dedicated to host the notes I took ~~I didn't take a lot of notes~~.
 
 ## About myself
