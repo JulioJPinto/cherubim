@@ -1,5 +1,5 @@
 ---
-title: Grammars
+title: Grammars (Part I)
 --- 
 
 # Grammars (Gramáticas)
@@ -23,7 +23,7 @@ Mantissa -> Dígitos Meio Dígitos
 Dígitos -> ε | Dígito Dígitos
 Meio -> Dígito . | . Dígito
 Dígito -> 0 | ... | 9
-Expoent -> ε | 'E' Sinal Dígitos Dígitos
+Expoent -> ε | 'E' Sinal Dígitos DígGrammars (Part I)itos
 ```
 
 One of the key ideas when writing a grammar is to identify the blocks that constitute the string and associate them a non-terminal symbol.
@@ -107,7 +107,12 @@ The solution being `S = (ε + '+' + '-')(digito)+ (ε + '.' (digito)+)`
 
 ### GR to GSR
 
-## Automata
+<hr></hr>
+
+##### Next Chapter: [Grammars (Parte II)](automata.md)
+
+
+
 
 
 
