@@ -1,5 +1,5 @@
 ---
-title: 📚 Júlio's Stuff
+title: Júlio's Thoughts
 ---
 
 This is a website dedicated to host things I find interesting, as well as most of the notes I took ~~I didn't take a lot of notes~~.
