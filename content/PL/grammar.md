@@ -103,7 +103,28 @@ The solution being `S = (ε + '+' + '-')(digito)+ (ε + '.' (digito)+)`
 
 ### To the Right
 
+All of the productions follow this logic:
+```
+A -> a B
+```
+With the exception of 
+```
+Z -> ε
+```
+
 ### To the Left
+
+
+All of the productions follow this logic:
+```
+A -> B a
+```
+With the exception of 
+```
+Z -> ε
+```
+
+For both cases Z is the final symbol.
 
 ### GR to GSR
 
