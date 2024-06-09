@@ -38,14 +38,14 @@ There's not a lot to know about the rules behind Regex.
 | --- | --- |
 | `^` | Start of line |
 | `$` | End of line |
-| `\w` | Any word (includes underscore) |
-| `\W`| Non-word|
+| `\w` | Any word character (includes underscore) |
+| `\W`| Non-word character|
 | `\d` | Digit |
 | `\D` | Non-digit |
 | `\s` | Whitespace |
 | `\S` | Not whitespace |
-| `\b` | Match at the beginning or end |
-| `\B` | Do not match at beginning or end |
+| `\b` | Match seperators |
+| `\B` | Do not match seperators |
 | `\0` | Nul character |
 | `\n` | New line |
 

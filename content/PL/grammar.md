@@ -45,5 +45,11 @@ Knowing this, we get the following derivation tree.
 
 ## Regular Grammars (GR)
 
+A context independent grammar can be defined as regular to the right or to the left. This is defined by the way the productions are defined.
+
+## Regex to Grammars
+
+
+
 
 
