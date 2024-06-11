@@ -20,3 +20,7 @@ title: Recognition Bottom-Up
 ### LALR1 Conflicts Reduce-Reduce
 
 ### LALR1 Conflicts Transition-Reduce
+
+<hr></hr>
+
+##### Extras: [Exercises]()
