@@ -71,7 +71,28 @@ Here are the following
 
 1. e = φ
 
+![phi-auto](phi-automata.png)
 
+2. e = ε
 
+![empty-auto](empty-automata.png)
 
-## 
+3. e = a
+
+![a-auto](a-automata.png)
+
+4. e = p + q (p and q are regular expressions)
+
+![plus-auto](plus-auto.png)
+
+5. e = p . q
+
+![pro-auto](pro-auto.png)
+
+6. e = p+
+
+![alot-auto](alot-auto.png)
+
+7. e = p*
+
+![many-auto](many-auto.png)
