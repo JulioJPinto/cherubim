@@ -23,4 +23,4 @@ title: Recognition Bottom-Up
 
 <hr></hr>
 
-##### Extras: [Exercises]()
+##### Extras: [Exercises](exercises.md)
