@@ -55,7 +55,14 @@ To determine the lookahead we have the set of terminal symbols that can follow a
 
 ## LL Conflicts
 
+With lookahead, sometimes there are two productions associated to the same A on the left side, they have common elements, this leads to a dilema in which way to follow when trying to recognize A (non-terminal symbol). To this situation we call it LL1 conflict and it basically means that it is impossible to build the top-down recognition.
+
 ### LL1 Conflicts
+
+Some things that can lead to theses conflict are:
+- Ambiguous Grammars
+- Recursive left Grammars
+- Production starting with the same symbol
 
 <hr></hr>
 
