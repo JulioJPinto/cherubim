@@ -19,4 +19,5 @@ I decided to create this so I have a place to dump my college stuff.
 
 - [Projects](projects.md)
 - [PL](PL/intro.md)
+- [SD](SD/intro.md)
 
