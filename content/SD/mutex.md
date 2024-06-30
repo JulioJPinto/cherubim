@@ -79,7 +79,11 @@ As you can see, the code that needs to be protected from the race (the read and 
 
 ## Problems with Mutual Exclusion
 
-Let's take into 
+Let's take into this two versions of the parallel primality testing code
+- Increment +1 and get n, test n
+- Increment +2 and get n, test n and n+1
+
+Using the first version we will, eventually, have at least one thread that is waiting for mutex. This happens cause the critical section is being acessed far
 <!---
 Must review slide 3 
 --->
