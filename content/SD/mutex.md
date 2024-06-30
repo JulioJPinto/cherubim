@@ -79,7 +79,7 @@ As you can see, the code that needs to be protected from the race (the read and 
 
 ## Problems with Mutual Exclusion
 
-Let's take into
+Let's take into 
 <!---
 Must review slide 3 
 --->
