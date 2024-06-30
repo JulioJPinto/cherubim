@@ -76,3 +76,14 @@ public class Counter {
 ```
 
 As you can see, the code that needs to be protected from the race (the read and write of value) is inside the `try`. To this code we will call it the *critical section*. What is happening here is that we are locking the shared object (Counter) when doing the method `getAndIncrement()`, this means, the variables in it are only being acessed and altered by one single thread, the other threads can't do anything to it. This way we guarantee that the threads won't read different values or write the wrong value to the object.
+
+## Problems with Mutual Exclusion
+
+Let's take into
+<!---
+Must review slide 3 
+--->
+
+<hr></hr>
+
+### Next Chapter: [Programming with locks](locks.md)
