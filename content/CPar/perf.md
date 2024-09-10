@@ -24,3 +24,5 @@ title: Performance Engineering
 
 - Computer Architecture: A quantative Approach
 - The OpenMP Common Core: Making OpenMP Simple Again
+- Structured Parallel Programming
+- Programming Massively Parallel Processors 

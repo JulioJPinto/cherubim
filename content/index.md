@@ -18,6 +18,7 @@ I decided to create this so I have a place to dump my college stuff.
 ### College
 
 - [Projects](projects.md)
-- [PL](PL/intro.md)
-- [SD](SD/intro.md)
-
+- LEI
+    - [PL](LEI/PL/intro.md)
+- MEI
+    - [CPar](LEI/CPar/intro.md)
