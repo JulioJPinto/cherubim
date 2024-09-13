@@ -8,6 +8,8 @@ These are my notes for Computação Paralela (CPar).
 
 ### About the class
 
+The groups are constituted of 3 students.
+
 __Assessment__:
 - 1 written test (Test 20th Dec, Exam 24th)[^1] 30%
 - 2 intermediate works w/reports[^2] (21th Oct & 19th Nov) 15% each
