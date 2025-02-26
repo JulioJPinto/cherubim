@@ -15,10 +15,3 @@ I'm very passionate about Computer Graphics and Design. Hopefully, next year, I 
 
 I decided to create this so I have a place to dump my college stuff.
 
-### College
-
-- [Projects](projects.md)
-- LEI
-    - [PL](LEI/PL/intro.md)
-- MEI
-    - [CPar](LEI/CPar/intro.md)
